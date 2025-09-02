@@ -1,0 +1,21 @@
+/* Reset body margins and set background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Container centers the image both vertically and horizontally */
+.qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* Full screen height */
+}
+
+/* Set image to a fixed size that looks good on mobile */
+.qr-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
